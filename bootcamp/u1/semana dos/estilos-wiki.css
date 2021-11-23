@@ -1,0 +1,26 @@
+body{
+	font-family: sans-serif;
+}
+.biography{
+	/*background-color: red; *//*similar a background*/
+	width:70%;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.6;
+
+}
+.summary{
+	/*background-color: green;*/
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.summary-table{
+	border:1px solid #a2a9b1;
+	background-color: #f8f9fa;
+}
+
+.summary-table thead th{
+	background-color: #B0C4DE;
+}

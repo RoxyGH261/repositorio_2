@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos4.css">
+</head>
+
+
+<body>
+    <div class="main">
+        <form >
+            <div class="campo">
+                <label for="nombres">Nombres: </label>
+                <input type="text" name="nombres" id="nombres">
+            </div>
+            <div class="campo">
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div>
+            <div class="campo">
+            <label for="email-ejemplo">correo :</label>
+            <input type="email" id="email-ejemplo" placeholder="ingrese su correo" name="emmail-ejemplo" required>
+            </div>
+            <div class="campo">
+                <label for="fdn">fecha de nacimiento: </label>
+                <input type="date" name="fdn" class="cuartle">
+            </div class="campo">
+            <div class="campo">
+                <label for="genero">genero</label> 
+            </div>
+            <div class="campo">
+                <input type="checkbox" name="genero" id="masculino">masculino
+                <input type="checkbox" name="genero" id="femenino">femenino
+            </div>
+            <div>
+                <label for="estatura">estatura: </label>
+                <input type="text" name="estatura" id="estatura">metros
+            </div>
+            <div>
+                <label for="peso">peso: </label>
+                <input type="text" name="peso" id="peso"> kg
+            </div>
+            <div>
+                <input type="checkbox">Realizo deporte regularmente 
+            </div>
+            </div>
+            <div class="campo">
+                <button type="button" id="enviar" onclick="datos()" class="final">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/4prototipo.js"></script>
+</body>
+</html>

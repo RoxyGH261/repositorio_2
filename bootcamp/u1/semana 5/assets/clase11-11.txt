@@ -1,0 +1,20 @@
+mkdir grupo_6
+cd ./grupo_6
+touch proyecto.html 
+touch proyecto.js
+touch proyecto.css
+git init 
+git add .
+git commit -m "primer commit"
+git remote add origin https://RoxyGH261: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@github.com/RoxyGH261/repositorio.git
+git log 
+git status
+git remote 
+git remote -v
+git push -u origin master  
+git status
+git add. 
+git commit -m "cambios en index.html"
+git log
+git push 
+rm-r carpeta 22

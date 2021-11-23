@@ -1,0 +1,11 @@
+mkdir clase22
+cd ./clase22
+touch index.html 
+touch readme.md
+git init 
+git add .
+git commit -m "primer commit"
+ 
+
+token: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
+git@github.com:RoxyGH261/proyecto_2.git

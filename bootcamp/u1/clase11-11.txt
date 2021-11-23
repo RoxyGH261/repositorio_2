@@ -1,0 +1,14 @@
+mkdir clase22
+cd ./clase22
+touch index.html 
+touch readme.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:RoxyGH261/proyecto_2.git
+git push -u origin main  
+git status
+git add. 
+
+extensión en el repositorio, se crea una versión del proyecto se guarda en localrepo

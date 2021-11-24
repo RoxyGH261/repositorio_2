@@ -2,9 +2,11 @@ h1{
     color: rgb(2, 2, 2);
     text-align: center;
     font-size: 90px;
-    text-shadow: 0 0 20px #ff1100;
+    text-shadow: 0 0 18px #ff1100;
     border:rgb(255, 0, 0);
     margin-top: 5px;
+    margin-bottom: 20px;
+    
 }
 
 
@@ -27,64 +29,59 @@ textarea{
     
 }
 
-text{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
+
 
 .encriptar-button{
-    padding: 15px 30px;
-    color: rgb(255, 57, 57);
-    letter-spacing: 4px;
-    font-size: 24px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
-    border-color: red;
-    font-family: fantasy;
-    background-color: rgb(2, 2, 2);
     border-top: 3px double rgb(255, 8, 0);
     border-right: 3px double rgb(255, 8, 0);
     border-bottom: 3px double rgb(255, 8, 0);
     border-left: 3px double rgb(255, 8, 0);
+    font-size: 24px;
+    font-family: fantasy;
     padding-top: 10px;
     width: 260px;
-    display: inline-block;
-    border-radius: 0 0 1 rem;
+    padding: 12px;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 20px; 
+    cursor: pointer; 
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 57, 57);
+    letter-spacing: 2px;
+    box-shadow: 0 0 36px #e90303;
+    transition: delay 0.5em;
+    margin-right: 20px;  
+        
 }
 
-.encriptar-button:hover{
+.desencriptar-button:hover{
     background: #dd8282;
     box-shadow: 0 0 36px #e90303;
     transition: delay 0.5em;
 }
-
+    
 .desencriptar-button{
-    padding: 15px 30px;
-    color: rgb(255, 57, 57);
-    letter-spacing: 4px;
-    font-size: 24px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
-    border-color: red;
-    font-family: fantasy;
-    background-color: rgb(2, 2, 2);
     border-top: 3px double rgb(255, 8, 0);
     border-right: 3px double rgb(255, 8, 0);
     border-bottom: 3px double rgb(255, 8, 0);
     border-left: 3px double rgb(255, 8, 0);
+    font-size: 24px;
+    font-family: fantasy;
     padding-top: 10px;
     width: 260px;
-    display: inline-block;
-    margin-left: 20px;
-    
+    padding: 12px;
+    margin-top: 20px;
+    margin-right: 20px; 
+    cursor: pointer; 
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 57, 57);
+    letter-spacing: 2px;
+    box-shadow: 0 0 36px #e90303;
+    transition: delay 0.5em;
+    margin-left: 20px;  
+        
 }
 
-.desencriptar-button:hover{
+.encriptar-button:hover{
     background: #dd8282;
     box-shadow: 0 0 36px #e90303;
     transition: delay 0.5em;

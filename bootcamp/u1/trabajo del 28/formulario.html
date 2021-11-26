@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando un formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario </b></legend>
+            <br>
+            <div class="inputBox">
+             <div class="main">
+              <form>
+                <div class="campo">
+                    <input type="text" name="nombres" id="nombres">
+                    <label for="nombres">Nombres </label>
+                
+               </div>
+               <div class="campo">
+                    <input type="text" name="apellidos" id="apellidos">
+                    <label for="apellidos">Apellidos </label>
+                
+               </div>
+               <div class="campo">
+                    <input type="email" name="email" id="email">
+                    <label for="email">email </label>
+               </div>
+               <div class="campo">
+                   <input type="date" name="fechaNacimieto" id="fecha-nacimiento">
+                   <label for="fecha-nacimiento">Fecha de nacimiento</label>
+               </div>
+               <div class="campo">
+                <label for="info">motivo de consulta</label> 
+            </div>
+            <div class="campo">
+                <textarea name="texto" id="info" rows="5" cols="30" placeholder="Escribe o pega el mensaje" style="color:white"></textarea>
+            </div>
+                  <div class="campo">
+                  <button type="button" id="enviar" onclick="datos()">Enviar</button>
+              </div>
+          </fieldset> 
+        </form>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

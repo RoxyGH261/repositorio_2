@@ -1,5 +1,9 @@
 body {
-    font-family: 'Open Sans', sans-serif;font-size: 30px;
+    font-family: 'Open Sans', sans-serif;font-size: 30px;color: rgb(0, 0, 0);height: 100vh;
+    background-color: green;
+    background: linear-gradient( 90deg , #3ad54f 2% , #3cff00 980% );
+    display: flex;
+    justify-content: center; 
 }
 .cuartle{margin-bottom: 3px; font-size: 25px;}
 

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/estilos4.css">
+    <link rel="stylesheet" href="style.css">
+    <title>consultas</title>>
 </head>
 
 
@@ -28,29 +29,16 @@
                 <input type="date" name="fdn" class="cuartle">
             </div class="campo">
             <div class="campo">
-                <label for="genero">genero</label> 
+                <label for="genero">motivo de consulta</label> 
             </div>
             <div class="campo">
-                <input type="checkbox" name="genero" id="masculino">masculino
-                <input type="checkbox" name="genero" id="femenino">femenino
-            </div>
-            <div>
-                <label for="estatura">estatura: </label>
-                <input type="text" name="estatura" id="estatura">metros
-            </div>
-            <div>
-                <label for="peso">peso: </label>
-                <input type="text" name="peso" id="peso"> kg
-            </div>
-            <div>
-                <input type="checkbox">Realizo deporte regularmente 
-            </div>
+                <textarea name="texto" id="cadena" rows="15" cols="100" placeholder="Escribe o pega el mensaje" style="color:white"></textarea>
             </div>
             <div class="campo">
                 <button type="button" id="enviar" onclick="datos()" class="final">Enviar</button>
             </div>
         </form>
     </div>
-    <script src="assets/js/4prototipo.js"></script>
+
 </body>
 </html>
